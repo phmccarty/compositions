@@ -50,8 +50,8 @@
           aes8 fes ees fes ees2 |
           r2 r4 ees4 |
           f?4. ees16 f ges8[( aes]) bes8. aes16 |
-          \times 2/3 { aes16[( bes aes) } ges8] \times 2/3 { ges16( aes ges) } f8 ees4. f8 |
-          \times 2/3 { ges8( aes) beses } ees8 des c4. ees8 |
+          \tuplet 3/2 { aes16[( bes aes) } ges8] \tuplet 3/2 { ges16( aes ges) } f8 ees4. f8 |
+          \tuplet 3/2 { ges8( aes) beses } ees8 des c4. ees8 |
           f8 ees des2. |
 
           % Retransition

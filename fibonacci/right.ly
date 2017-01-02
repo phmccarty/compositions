@@ -148,9 +148,9 @@ upper = {
     bf16 af g f | % m. 67
 
     g16 ef f8
-    g16 af \times 2/3 { bf16 ( c df }
-    \times 2/3 { ef16 f g }
-    \times 2/3 { af16 bf c ) } | % m. 68
+    g16 af \tuplet 3/2 { bf16 ( c df }
+    \tuplet 3/2 { ef16 f g }
+    \tuplet 3/2 { af16 bf c ) } | % m. 68
 
     df16-> c <bf bf'>8 bf16-> af <gf gf'>8
     ef16 ( df c bf | % m. 69

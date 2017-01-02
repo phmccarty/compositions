@@ -70,38 +70,38 @@ lower = {
     \repeat unfold 2 { ef8 f } r4 | % m. 34
 
     %% first time
-    \times 2/3 { cs,8 cs d }
-    \times 2/3 { ef8 f af }
+    \tuplet 3/2 { cs,8 cs d }
+    \tuplet 3/2 { ef8 f af }
     df4 | % m. 35
     a2-> r4 | % m. 36
 
     %% second time
-    \times 2/3 { cs8 cs d }
-    \times 2/3 { ef8 f af }
+    \tuplet 3/2 { cs8 cs d }
+    \tuplet 3/2 { ef8 f af }
     df4 | % m. 37
     a2 r4 | % m. 38
 
     %% first time
-    \times 2/3 { bf,8 g f }
-    \times 2/3 { c8 f f }
+    \tuplet 3/2 { bf,8 g f }
+    \tuplet 3/2 { c8 f f }
     bf4 | % m. 39
     ef2-> r4 | % m. 40
 
     %% second time
-    \times 2/3 { bf'8 g f }
-    \times 2/3 { c8 f f }
+    \tuplet 3/2 { bf'8 g f }
+    \tuplet 3/2 { c8 f f }
     bf4 | % m. 41
     ef2 r4 | % m. 42
 
     %% first time
-    \times 2/3 { cs,8 e f }
-    \times 2/3 { a,8 d b }
+    \tuplet 3/2 { cs,8 e f }
+    \tuplet 3/2 { a,8 d b }
     cs4 | % m. 43
     c2-> r4 | % m. 44
 
     %% second time
-    \times 2/3 { cs'8 e f }
-    \times 2/3 { a,8 d b }
+    \tuplet 3/2 { cs'8 e f }
+    \tuplet 3/2 { a,8 d b }
     cs4 | % m. 45
     c2 c,4 | % m. 46
 
