@@ -1,7 +1,6 @@
 \version "2.19.49"
 
 #(ly:set-option 'point-and-click #f)
-#(set-global-staff-size 23)
 #(set-default-paper-size "letter")
 
 \header {
