@@ -1,3 +1,5 @@
+\version "2.19.49"
+
 voicethree = {
   \new Voice \with {
     \remove "Note_heads_engraver"
