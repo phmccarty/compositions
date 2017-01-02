@@ -97,6 +97,7 @@ dynamics = {
   \override Hairpin.extra-offset = #'(2 . -2)
   \override Hairpin.rotation = #'(9 -1 0)
   \override Hairpin.bound-padding = #3
+  \once \override Hairpin.style = #'dashed-line
   s4 \< s4 \fff s2 | % m. 81
 }
 

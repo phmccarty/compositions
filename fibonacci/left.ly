@@ -183,7 +183,6 @@ lower = {
       \featherDurations #(ly:make-moment 2/3)
       {
         \once \override Beam.positions = #'(7 . 8.7)
-        \once \override Hairpin.style = #'dashed-line
         f'64
         _ \markup
           \tiny
