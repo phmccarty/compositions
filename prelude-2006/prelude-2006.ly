@@ -112,9 +112,6 @@
           e4. a'16 gis a8 r e, r
           e4. b''16 a b8 r e,, r
           e1 \bar "|."
-          \revert TextScript.padding
-          \revert TextScript.staff-padding
-          \revert TextScript.baseline-skip
         }
       }
     >>
