@@ -21,7 +21,7 @@
     \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8)
     <<
       \new Staff {
-        \override Staff.TimeSignature.style = #'()
+        \numericTimeSignature
         \time 4/4
         \key e \major
         \relative c'' {
@@ -68,7 +68,7 @@
       }
       \new Staff {
         \clef bass
-        \override Staff.TimeSignature.style = #'()
+        \numericTimeSignature
         \time 4/4
         \key e \major
         \relative c {
