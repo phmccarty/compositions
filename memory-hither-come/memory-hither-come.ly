@@ -14,7 +14,6 @@
 }
 
 \paper {
-  ragged-bottom = ##f
   ragged-last-bottom = ##f
   %annotate-spacing = ##t
 }
@@ -271,12 +270,7 @@
   \layout {
     \context {
       \Score
-      \override LyricText.font-size = #-1
-    }
-    \context {
-      \Lyrics
-      \override VerticalAxisGroup.nonstaff-relatedstaff-spacing.padding = #2
-      \override VerticalAxisGroup.nonstaff-unrelatedstaff-spacing.padding = #4
+      \override LyricText.font-size = #-1.5
     }
   }
 }

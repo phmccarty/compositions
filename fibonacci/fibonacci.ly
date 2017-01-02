@@ -21,7 +21,6 @@
 \paper {
   indent = #0
   ragged-last-bottom = ##f
-  between-system-padding = #0.1
   %annotate-spacing = ##t
 }
 
