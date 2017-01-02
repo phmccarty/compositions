@@ -18,9 +18,9 @@
 
 \score {
   \new PianoStaff {
+    \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8)
     <<
       \new Staff {
-        \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8)
         \override Staff.TimeSignature.style = #'()
         \time 4/4
         \key e \major
@@ -69,7 +69,6 @@
       \new Staff {
         \clef bass
         \override Staff.TimeSignature.style = #'()
-        \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8)
         \time 4/4
         \key e \major
         \relative c {
