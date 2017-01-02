@@ -178,7 +178,7 @@ lower = {
     \override Beam.grow-direction = #RIGHT
     \scaleDurations #'(4 . 1)
     {
-      \featherDurations #(ly:make-moment 2 3)
+      \featherDurations #(ly:make-moment 2/3)
       {
         \once \override Beam.positions = #'(7 . 8.7)
         \once \override Hairpin.style = #'dashed-line
