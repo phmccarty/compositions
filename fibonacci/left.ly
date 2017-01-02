@@ -2,7 +2,7 @@
 
 \include "functions.ly"
 
-lower = {
+lower = \absolute {
   \ottava #-1
   cs,,1-> _ \sfz | % m. 1
   R1 | % m. 2
@@ -172,9 +172,9 @@ lower = {
     \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
     \mark \markup { \huge "*" }
   }
-  %% absolute mode
+
   %% Last measure
-  {
+  \absolute {
     \time 4/4
     \override Beam.thickness = #0.35
     \override Beam.grow-direction = #RIGHT

@@ -2,7 +2,7 @@
 
 \include "functions.ly"
 
-upper = {
+upper = \absolute {
   \override VoiceFollower.style = #'dotted-line
   \tempo "" 1 = 32
   \showStaffSwitch
@@ -187,8 +187,8 @@ upper = {
     R1 * 3/8 ^ \fermataMarkup
     \bar "||" | % m. 80
   }
-  %% absolute mode
-  {
+
+  \absolute {
     \time 4/4
     s4
     <fs''' as''' cs'''' fs''''>4
