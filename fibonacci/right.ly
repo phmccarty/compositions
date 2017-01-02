@@ -1,7 +1,7 @@
 \include "functions.ly"
 
 upper = {
-  \override VoiceFollower #'style = #'dotted-line
+  \override VoiceFollower.style = #'dotted-line
   \tempo "" 1 = 32
   \showStaffSwitch
   R1 | % m. 1
@@ -60,7 +60,7 @@ upper = {
 
     \time 3/4
     R1 * 3/4 | % m. 33
-    \override TextSpanner #'(bound-details left text) = #"rit."
+    \override TextSpanner.bound-details.left.text = #"rit."
     ef8
     \startTextSpan
     f ef f ef f
@@ -111,7 +111,7 @@ upper = {
     <df df,>16 ( c af ) <e' e,> ( ds b ) <g' g,> ( ds | % m. 58
 
     \time 3/4
-    \override Beam #'breakable = ##t
+    \override Beam.breakable = ##t
     <gs gs,>16 ) \noBeam d,16 f gs
     a16 e f b
     c16 d, ( f gs | % m. 59
@@ -157,7 +157,7 @@ upper = {
 
     af16 ) f g af
     g4
-    \override BreathingSign #'text =
+    \override BreathingSign.text =
       \markup { \musicglyph #"scripts.caesura.straight" }
     f4 \fermata \breathe | % m. 70
 
@@ -173,7 +173,7 @@ upper = {
     \tempo "Presto" 4. = 142
     \time 3/8
     %% manual beam
-    \once \override Beam #'positions = #'(-3 . -3)
+    \once \override Beam.positions = #'(-3 . -3)
     \addStacc { cs,,8 [ cs d | % m. 72
     ef8 f gs } | % m. 73
     cs8 ^ \markup \small \italic { sim. } a bf | % m. 74

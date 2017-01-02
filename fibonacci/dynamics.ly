@@ -21,10 +21,10 @@ dynamics = {
   s1 | % m. 17
   s1 | % m. 18
   s1 | % m. 19
-  \once \override Hairpin #'bound-padding = #3
+  \once \override Hairpin.bound-padding = #3
   s1 \< | % m. 20
   s1 \mf | % m. 21
-  \once \override Hairpin #'bound-padding = #3
+  \once \override Hairpin.bound-padding = #3
   s1 \> | % m. 22
   s1 | % m. 23
   s1 \mp | % m. 24
@@ -54,14 +54,14 @@ dynamics = {
   s | % m. 48
   s | % m. 49
   s | % m. 50
-  \once \override Hairpin #'bound-padding = #3
+  \once \override Hairpin.bound-padding = #3
   s4 \p \< s4 | % m. 51
   s4 s4 | % m. 52
   s4 \mp \> s4 | % m. 53
   s4 s4 \! | % m. 54
   s4 \p s4 | % m. 55
   s1 * 2/4 | % m. 56
-  \once \override Hairpin #'bound-padding = #3.5
+  \once \override Hairpin.bound-padding = #3.5
   s4 \< s4 | % m. 57
   s4 s4 | % m. 58
   s8 \mf s8 \p s4 s4 | % m. 59
@@ -80,9 +80,9 @@ dynamics = {
   s4 \ff s4 s4 \> | % m. 69
   s4 s s \p | % m. 70
   s1 * 13/4 | % m. 71
-  \override TextScript #'outside-staff-priority = ##f
-  \override TextScript #'staff-padding = #0
-  \override TextScript #'padding = #0
+  \override TextScript.outside-staff-priority = ##f
+  \override TextScript.staff-padding = #0
+  \override TextScript.padding = #0
   s8 s8 - \markup \whiteout \italic \small { unaccented } s8 | % m. 72
   s1 * 3/8 | % m. 73
   s | % m. 74
@@ -92,9 +92,9 @@ dynamics = {
   s | % m. 78
   s | % m. 79
   s | % m. 80
-  \override Hairpin #'extra-offset = #'(2 . -2)
-  \override Hairpin #'rotation = #'(9 -1 0)
-  \override Hairpin #'bound-padding = #3
+  \override Hairpin.extra-offset = #'(2 . -2)
+  \override Hairpin.rotation = #'(9 -1 0)
+  \override Hairpin.bound-padding = #3
   s4 \< s4 \fff s2 | % m. 81
 }
 

@@ -272,7 +272,7 @@
   \layout {
     \context {
       \Score
-      \override LyricText #'font-size = #-1
+      \override LyricText.font-size = #-1
     }
     \context {
       \Lyrics

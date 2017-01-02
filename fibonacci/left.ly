@@ -139,7 +139,7 @@ lower = {
     af4 df,2 | % m. 68
     bf2 c4 | % m. 69
     df4.. df16 ~
-    \override BreathingSign #'text =
+    \override BreathingSign.text =
       \markup { \musicglyph #"scripts.caesura.straight" }
     df4 \fermata \breathe | % m. 70
 
@@ -156,7 +156,7 @@ lower = {
     %%% "Presto"
     \time 3/8
     %% manual beam
-    \once \override Beam #'positions = #'(3 . 3)
+    \once \override Beam.positions = #'(3 . 3)
     \addStacc { cs8 [ cs d | % m. 72
     ef8 f gs } | % m. 73
     cs8 _ \markup \small \italic { sim. } a bf | % m. 74
@@ -167,20 +167,20 @@ lower = {
     b8 cs c ]
     R1 * 3/8 ^ \fermataMarkup
     \bar "||" | % m. 79
-    \once \override Score.RehearsalMark #'break-align-symbols = #'(time-signature)
+    \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
     \mark \markup { \huge "*" }
   }
   %% absolute mode
   %% Last measure
   {
     \time 4/4
-    \override Beam #'thickness = #0.35
-    \override Beam #'grow-direction = #RIGHT
+    \override Beam.thickness = #0.35
+    \override Beam.grow-direction = #RIGHT
     \scaleDurations #'(4 . 1)
     {
       \featherDurations #(ly:make-moment 2 3)
       {
-        \once \override Beam #'positions = #'(7 . 8.7)
+        \once \override Beam.positions = #'(7 . 8.7)
         \once \override Hairpin.style = #'dashed-line
         f'64
         _ \markup

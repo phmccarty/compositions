@@ -31,7 +31,7 @@
 \score {
   \new PianoStaff = "pianostaff" <<
     \new Staff = "RH" {
-      #(set-accidental-style 'piano 'Score)
+      \accidentalStyle Score.piano
       \clef "treble"
       \numericTimeSignature
       \time 1/1
@@ -51,7 +51,7 @@
   \layout {
     \context {
       \Score
-      \override Arpeggio #'X-extent = #'(-1 . 1)
+      \override Arpeggio.X-extent = #'(-1 . 1)
     }
 
   }

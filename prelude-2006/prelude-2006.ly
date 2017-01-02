@@ -21,8 +21,8 @@
   \new PianoStaff {
     <<
       \new Staff {
-        \override Score.SpacingSpanner #'common-shortest-duration = #(ly:make-moment 1 8)
-        \override Staff.TimeSignature #'style = #'()
+        \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8)
+        \override Staff.TimeSignature.style = #'()
         \time 4/4
         \key e \major
         \relative c'' {
@@ -63,14 +63,14 @@
           e, gis16 fis gis8 d'16 cis d8 gis, e gis
           e a16 gis a8 cis16 b cis8 a e a
           fis b16 a b8 dis16 cis dis8 b fis b
-          \override Voice.Arpeggio #'transparent = ##t
+          \override Voice.Arpeggio.transparent = ##t
           <gis b e>1\arpeggio \bar "|."
         }
       }
       \new Staff {
         \clef bass
-        \override Staff.TimeSignature #'style = #'()
-        \override Score.SpacingSpanner #'common-shortest-duration = #(ly:make-moment 1 8)
+        \override Staff.TimeSignature.style = #'()
+        \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8)
         \time 4/4
         \key e \major
         \relative c {
@@ -112,9 +112,9 @@
           e4. a'16 gis a8 r e, r
           e4. b''16 a b8 r e,, r
           e1 \bar "|."
-          \revert TextScript #'padding
-          \revert TextScript #'staff-padding
-          \revert TextScript #'baseline-skip
+          \revert TextScript.padding
+          \revert TextScript.staff-padding
+          \revert TextScript.baseline-skip
         }
       }
     >>
