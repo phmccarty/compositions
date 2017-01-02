@@ -41,7 +41,7 @@
                                  (ly:music-property music 'elements) t)))
    music)
 
-makeOctaves = #(define-music-function (parser location arg mus) (integer? ly:music?)
+makeOctaves = #(define-music-function (arg mus) (integer? ly:music?)
                  (music-map (lambda (x) (octavize x arg))
                             (event-chord-wrap! mus)))
 
@@ -77,7 +77,7 @@ makeOctaves = #(define-music-function (parser location arg mus) (integer? ly:mus
 #(define (add-staccato m)
    (add-script m "staccato"))
 
-addStacc = #(define-music-function (parser location music) (ly:music?)
+addStacc = #(define-music-function (music) (ly:music?)
               (map-some-music add-staccato music))
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

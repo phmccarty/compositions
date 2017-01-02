@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.19.49"
 
 #(ly:set-option 'point-and-click #f)
 #(set-default-paper-size "letter")
@@ -16,7 +16,6 @@
 \paper {
   ragged-bottom = ##f
   ragged-last-bottom = ##f
-  system-system-spacing #'basic-distance = #5
   %annotate-spacing = ##t
 }
 
@@ -71,7 +70,7 @@
         }
       }
     }
-    \new Lyrics \lyricsto mel \lyricmode {
+    \new Lyrics \lyricsto mel {
       % A
       Me -- mo -- ry, __
       hi -- ther come, __ and
