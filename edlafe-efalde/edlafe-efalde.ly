@@ -101,12 +101,12 @@ dynamics = {
           \remove "Note_heads_engraver"
           \consists "Completion_heads_engraver"
         }
-        \relative c' {
+        \relative c {
           \voiceFour
           \stemUp
           % pink
           %\voiceFourStyle
-          \partD
+          \partB
         }
       }
       {
@@ -119,7 +119,7 @@ dynamics = {
           \stemDown
           % blue
           %\voiceTwoStyle
-          \partB
+          \partD
         }
       }
     >>

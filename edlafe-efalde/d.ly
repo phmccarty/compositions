@@ -7,9 +7,9 @@ partD = {
   aes2    % d4;p8
   e4.     % d3;p4
   dis8    % d1;p3
-  b4.     % d3;pe
+  b'4.    % d3;pe
   c4      % d2;p0
-  g'4     % d2;p7
+  g4      % d2;p7
   fis4    % d2;p6
   d4      % d2;p2
   bes4.   % d3;pt
@@ -20,13 +20,13 @@ partD = {
 
   %%% I %%%
   aes2    % d4;p8
-  c,4.    % d3;p0
+  c4.     % d3;p0
   cis8    % d1;p1
   f4.     % d3;p5
   e4      % d2;p4
-  a,4     % d2;p9
+  a4      % d2;p9
   bes4    % d2;pt
-  d4      % d2;p2
+  d,4     % d2;p2
   fis4.   % d3;p6
   g8      % d1;p7
   ees4.   % d3;p3

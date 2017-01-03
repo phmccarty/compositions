@@ -32,27 +32,27 @@ partB = {
   r8
 
   %%% R %%%
-  f2      % d4;p5
+  f'2     % d4;p5
   cis4.   % d3;p1
-  a'8     % d1;p9
+  a8      % d1;p9
   bes4.   % d3;pt
   d4      % d2;p2
-  fis4    % d2;p6
+  fis,4   % d2;p6
   g4      % d2;p7
-  c,4     % d2;p0
+  c4      % d2;p0
   b4.     % d3;pe
   dis8    % d1;p3
   e4.     % d3;p4
-  aes,2   % d4;p8
+  aes2    % d4;p8
   r8
 
   %%% RI %%%
   b2      % d4;pe
-  dis,4.  % d3;p3
+  dis4.   % d3;p3
   g8      % d1;p7
   fis4.   % d3;p6
   d4      % d2;p2
-  bes'4   % d2;pt
+  bes4    % d2;pt
   a4      % d2;p9
   e4      % d2;p4
   f4.     % d3;p5
