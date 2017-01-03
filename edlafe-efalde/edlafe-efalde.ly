@@ -11,7 +11,7 @@
 \header {
   title = \markup \smallCaps { "Edláfe Efálde" }
   composer = "Patrick McCarty"
-  opus = \markup \tiny { "June 2007 (Revised January 2017)" }
+  opus = \markup \tiny { "June 2007 (Reconstructed January 2017)" }
   copyright = \markup \fontsize #-3 {
     "This score is dedicated to the public domain. See https://creativecommons.org/publicdomain/zero/1.0/"
   }
