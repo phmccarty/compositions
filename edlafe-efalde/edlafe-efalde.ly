@@ -1,9 +1,9 @@
 \version "2.19.49"
 
-\include "one.ly"
-\include "two.ly"
-\include "three.ly"
-\include "four.ly"
+\include "a.ly"
+\include "b.ly"
+\include "c.ly"
+\include "d.ly"
 
 #(ly:set-option 'point-and-click #f)
 #(set-default-paper-size "letter")
@@ -65,15 +65,63 @@ dynamics = {
     \accidentalStyle Score.dodecaphonic
     \new Staff <<
       \global
-      \voiceone
-      \voicethree
+      {
+        \new Voice \with {
+          \remove "Note_heads_engraver"
+          \consists "Completion_heads_engraver"
+        }
+        \relative c''' {
+          \voiceOne
+          \stemUp
+          % red
+          %\voiceOneStyle
+          \partA
+        }
+      }
+      {
+        \new Voice \with {
+          \remove "Note_heads_engraver"
+          \consists "Completion_heads_engraver"
+        }
+        \relative c' {
+          \voiceThree
+          \stemDown
+          % green
+          %\voiceThreeStyle
+          \partC
+        }
+      }
     >>
     \new Dynamics \dynamics
     \new Staff <<
       \clef "bass"
       \global
-      \voicefour
-      \voicetwo
+      {
+        \new Voice \with {
+          \remove "Note_heads_engraver"
+          \consists "Completion_heads_engraver"
+        }
+        \relative c' {
+          \voiceFour
+          \stemUp
+          % pink
+          %\voiceFourStyle
+          \partD
+        }
+      }
+      {
+        \new Voice \with {
+          \remove "Note_heads_engraver"
+          \consists "Completion_heads_engraver"
+        }
+        \relative c {
+          \voiceTwo
+          \stemDown
+          % blue
+          %\voiceTwoStyle
+          \partB
+        }
+      }
     >>
   >>
 }
