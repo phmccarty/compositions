@@ -1,4 +1,4 @@
-\version "2.19.49"
+\version "2.20.0"
 
 \include "functions.ly"
 
@@ -142,7 +142,7 @@ lower = \absolute {
     bf2 c4 | % m. 69
     df4.. df16 ~
     \override BreathingSign.text =
-      \markup { \musicglyph #"scripts.caesura.straight" }
+      \markup { \musicglyph "scripts.caesura.straight" }
     df4 \fermata \breathe | % m. 70
 
     %%%%

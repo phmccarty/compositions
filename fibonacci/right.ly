@@ -1,4 +1,4 @@
-\version "2.19.49"
+\version "2.20.0"
 
 \include "functions.ly"
 
@@ -160,7 +160,7 @@ upper = \absolute {
     af16 ) f g af
     g4
     \override BreathingSign.text =
-      \markup { \musicglyph #"scripts.caesura.straight" }
+      \markup { \musicglyph "scripts.caesura.straight" }
     f4 \fermata \breathe | % m. 70
 
     %%%%
