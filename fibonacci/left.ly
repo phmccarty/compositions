@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.0"
 
 \include "functions.ly"
 
@@ -10,7 +10,7 @@ lower = \absolute {
   d1-> _ \sfz | % m. 3
   R1 | % m. 4
   f'1-> _ \sfz | % m. 5
-  R1 ^ \fermataMarkup | % m. 6
+  R1 ^ \fermata | % m. 6
   \time 4/4
   \relative c, {
     \stemDown
@@ -111,7 +111,7 @@ lower = \absolute {
     c2 r4 | % m. 48
     cs2 r4 | % m. 49
 
-    R1 * 3/4 ^ \fermataMarkup
+    R1 * 3/4 ^ \fermata
 
     \bar "||" | % m. 50
 
@@ -167,7 +167,7 @@ lower = \absolute {
     ef8 df e, | % m. 77
     f8 a d | % m. 78
     b8 cs c ]
-    R1 * 3/8 ^ \fermataMarkup
+    R1 * 3/8 ^ \fermata
     \bar "||" | % m. 79
     \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
     \mark \markup { \huge "*" }

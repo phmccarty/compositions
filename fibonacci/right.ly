@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.0"
 
 \include "functions.ly"
 
@@ -13,7 +13,7 @@ upper = \absolute {
   \ottava #0
   ef'''1-> ^ \sfz | % m. 4
   R1 | % m. 5
-  R1 ^ \fermataMarkup \bar "||" | % m. 6
+  R1 ^ \fermata \bar "||" | % m. 6
   \tempo "Andante" 4 = 80
   \change Staff = "LH"
   \time 4/4
@@ -94,7 +94,7 @@ upper = \absolute {
     <b a'>2 r4 | % m. 48
     <a bf'>2 r4 | % m. 49
 
-    R1 * 3/4 ^ \fermataMarkup
+    R1 * 3/4 ^ \fermata
     \bar "||" | % m. 50
 
     %% section 3
@@ -184,7 +184,7 @@ upper = \absolute {
     ef8 df e, | % m. 77
     f8 a d | % m. 78
     b8 cs c ] | % m. 79
-    R1 * 3/8 ^ \fermataMarkup
+    R1 * 3/8 ^ \fermata
     \bar "||" | % m. 80
   }
 
