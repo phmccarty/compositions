@@ -9,7 +9,7 @@
 %%% First arg: an integer (e.g. 1 = "one octave above", -1 = "one octave below")
 %%% Second arg: a music expression
 %%%
-%%% From a public domain snippet at http://lsr.di.unimi.it/LSR/Snippet?id=445
+%%% From a public domain snippet at https://lsr.di.unimi.it/LSR/Snippet?id=445
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 #(define (octave-up m t)
@@ -57,7 +57,7 @@ makeOctaves = #(define-music-function (arg mus) (integer? ly:music?)
 %%% Defines a music function that adds a staccato articulation to all
 %%% notes/chords in the music expression passed as an argument.
 %%%
-%%% From a public domain snippet at http://lsr.di.unimi.it/LSR/Snippet?id=82
+%%% From a public domain snippet at https://lsr.di.unimi.it/LSR/Snippet?id=82
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 #(define (make-script x)
