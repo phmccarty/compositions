@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 #(ly:set-option 'point-and-click #f)
 #(set-default-paper-size "letter")

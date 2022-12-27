@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "functions.ly"
 
@@ -180,7 +180,7 @@ lower = \absolute {
     \override Beam.grow-direction = #RIGHT
     \scaleDurations #'(4 . 1)
     {
-      \featherDurations #(ly:make-moment 2/3)
+      \featherDurations 2/3
       {
         \once \override Beam.positions = #'(7 . 8.7)
         f'64
