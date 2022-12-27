@@ -77,7 +77,8 @@ makeOctaves = #(define-music-function (arg mus) (integer? ly:music?)
      (else #f)))
 
 #(define (add-staccato m)
-   (add-script m "staccato"))
+   ;; Remark: since 2.23.6 use symbol 'staccato not a string
+   (add-script m 'staccato))
 
 addStacc = #(define-music-function (music) (ly:music?)
               (map-some-music add-staccato music))
