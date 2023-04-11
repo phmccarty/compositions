@@ -1,3 +1,7 @@
+%%% SPDX-FileCopyrightText: 2007 Patrick McCarty <pnorcks@gmail.com>
+%%%
+%%% SPDX-License-Identifier: CC0-1.0
+
 \version "2.24.0"
 
 partD = {

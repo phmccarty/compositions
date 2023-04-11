@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2016 Patrick McCarty <pnorcks@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 This repo contains source files for my musical compositions written in the
 [LilyPond](http://lilypond.org) text input language.
 
