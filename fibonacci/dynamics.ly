@@ -14,7 +14,7 @@ dynamics = {
   s1 | % m. 5
   s1 | % m. 6
   s2 \p
-  s2 - \markup \italic \small \whiteout { "mysteriously" } | % m. 7
+  s2 - \markup \italic \small \whiteout \pad-markup #0.2 { "mysteriously" } | % m. 7
   s1 | % m. 8
   s1 | % m. 9
   s1 | % m. 10
@@ -39,7 +39,7 @@ dynamics = {
   s1 | % m. 27
   s1 | % m. 28
   s1 | % m. 29
-  s2 s4 s4 - \markup \italic \small \whiteout { "legatissimo" } | % m. 30
+  s2 s4 s4 - \markup \italic \small \whiteout \pad-markup #0.2 { "legatissimo" } | % m. 30
   s1 | % m. 31
   s1 * 5/4 | % m. 32
   s1 * 3/4 | % m. 33
@@ -71,7 +71,7 @@ dynamics = {
   s4 \< s4 | % m. 57
   s4 s4 | % m. 58
   s8 \mf s8 \p s4 s4 | % m. 59
-  s16*2 s16 - \markup \italic \small \whiteout { "agitato" } s16 s2 | % m. 60
+  s16*2 s16 - \markup \italic \small \whiteout \pad-markup #0.2 { "agitato" } s16 s2 | % m. 60
   s4 \mp s4 s4 | % m. 61
   s1 * 3/4 | % m. 62
   s16*2 s16 \mf \< s16 s2 | % m. 63
@@ -89,7 +89,7 @@ dynamics = {
   \override TextScript.outside-staff-priority = ##f
   \override TextScript.staff-padding = #0
   \override TextScript.padding = #0
-  s8 s8 - \markup \whiteout \italic \small { unaccented } s8 | % m. 72
+  s8 s8 - \markup \whiteout \italic \small \pad-markup #0.2 { unaccented } s8 | % m. 72
   s1 * 3/8 | % m. 73
   s | % m. 74
   s | % m. 75
